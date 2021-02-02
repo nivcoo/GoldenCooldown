@@ -1,0 +1,12 @@
+#use m for minute
+time_before_eat: 2m
+
+messages:
+  prefix: "&7[&c&lGoldenCooldown&7] "
+  second: "second"
+  seconds: "seconds"
+  minute: "minute"
+  minutes: "minutes"
+  #use {0} for the seconds and minutes
+  cancel_message: "You must wait {0} before eat another apple !"
+  no_permission: "You haven't the permission!"

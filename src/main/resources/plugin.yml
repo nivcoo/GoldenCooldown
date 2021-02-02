@@ -1,0 +1,14 @@
+name: GoldenCooldown
+main: fr.nivcoo.goldencooldown.GoldenCooldown
+version: 1.0.0
+authors: [nivcoo]
+commands:
+  gc:
+    description: main command
+permissions:
+  goldencooldown.bypass:
+    default: op
+    description: bypass the eat check
+  goldencooldown.reload:
+    default: op
+    description: reload the plugin
