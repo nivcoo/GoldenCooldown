@@ -38,9 +38,9 @@ public class PlayerItemConsume implements Listener {
 		String UUID = p.getUniqueId().toString();
 		Long time = wait.get(UUID);
 
-		if (time == null) {
+		if (time == null)
 			wait.put(UUID, currentMillis);
-		} else {
+		else {
 			long timeInSecondBeforeEat = timeBeforeEat * multipleAmount;
 			if ((currentMillis - time) / 1000 > timeInSecondBeforeEat) {
 				wait.put(UUID, currentMillis);
