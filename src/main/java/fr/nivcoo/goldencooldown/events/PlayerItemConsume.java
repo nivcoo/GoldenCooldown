@@ -57,7 +57,7 @@ public class PlayerItemConsume implements Listener {
 
 		int minutes = (int) (timeBeforeEat / 60);
 
-		timeBeforeEat -= (minutes * 60) - 1;
+		timeBeforeEat -= (minutes * 60);
 		int seconds = (int) timeBeforeEat;
 
 		String globalMessage = "";
