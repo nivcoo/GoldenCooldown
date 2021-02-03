@@ -21,7 +21,7 @@ public class GoldenCooldownCommand implements CommandExecutor {
 			sender.sendMessage(
 					ChatColor.YELLOW + "-----------[" + ChatColor.GOLD + dp.getDescription().getName() + ChatColor.YELLOW + "]-----------");
 			sender.sendMessage(
-					ChatColor.AQUA + "- /dp info" + ChatColor.YELLOW + " : See informations about plugin");
+					ChatColor.AQUA + "- /gc info" + ChatColor.YELLOW + " : See informations about plugin");
 			if (sender.hasPermission("goldencooldown.reload"))
 				sender.sendMessage(ChatColor.AQUA + "- /gc reload" + ChatColor.YELLOW + " : Reload the plugin");
 		} else if ("info".equalsIgnoreCase(args[0])) {
