@@ -1,7 +1,7 @@
 name: GoldenCooldown
 main: fr.nivcoo.goldencooldown.GoldenCooldown
 version: 1.0.0
-authors: [nivcoo]
+authors: [ nivcoo ]
 commands:
   gc:
     description: main command
